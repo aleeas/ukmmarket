@@ -260,6 +260,7 @@ a.login_text:hover{
 	.navbar-header-top i {
 	    margin: 10px -17px;
 	    font-size: 2em;
+	    color: #fff;
 	}
 	.navbar-header-top img.logo-img{
 		 width: 200px;
