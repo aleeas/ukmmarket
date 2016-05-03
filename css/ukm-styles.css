@@ -314,8 +314,55 @@ a.login_text:hover{
 	}
 }	
 
-@media screen and (max-width: 480px) {
-   .container{
-   		display: none;
-   }
+@media all and (max-width: 480px) and (min-width: 320px) {
+	.payment-method {
+	    height: 30px;
+	    background-size: 100%;
+	}
+	.navbar-header-top i {
+	    margin: 10px -17px;
+	    font-size: 2em;
+	}
+	.navbar-header-top img.logo-img{
+		 width: 200px;
+    	 margin-top: 5px;
+	}
+
+	.login_text{
+		display: none;
+	}
+
+	.small_potrait{
+		width: 100%;
+	}
+
+	.container .benefit_ukm .item .express {
+		width: 50%;
+	    background-position: 0 0px;
+	}
+	.container .benefit_ukm .item .trusted {
+		width: 50%;
+	    background-position: 25% 0px;
+	}
+
+	.container .benefit_ukm .item .easypayment{
+		width: 50%;
+	    background-position: 50% 0px;
+	}
+
+	.container .benefit_ukm .item .bigdeals{
+		width: 50%;
+	    background-position: 75% 0px;
+
+	}
+
+	.container .benefit_ukm .item .process{
+	    width: 100%;
+	    background-position: 115% 0px;
+
+	}
+
+	.container .footermenu .col-xs-3.small-menu{
+		width: 100%;
+	}
 }
