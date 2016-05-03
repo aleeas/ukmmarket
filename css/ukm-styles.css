@@ -315,6 +315,7 @@ a.login_text:hover{
 }	
 
 @media all and (max-width: 480px) and (min-width: 320px) {
+
 	.payment-method {
 	    height: 30px;
 	    background-size: 100%;
@@ -338,7 +339,7 @@ a.login_text:hover{
 
 	.container .benefit_ukm .item .express {
 		width: 50%;
-	    background-position: 0 0px;
+	    background-position: -1% 0px;
 	}
 	.container .benefit_ukm .item .trusted {
 		width: 50%;
@@ -357,8 +358,8 @@ a.login_text:hover{
 	}
 
 	.container .benefit_ukm .item .process{
-	    width: 100%;
-	    background-position: 115% 0px;
+	    width: 50%;
+	    background-position: 102% 0px;
 
 	}
 
