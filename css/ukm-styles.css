@@ -247,8 +247,8 @@ a.login_text:hover{
 	}
 
 	.container .potrait img {
-	    height: 185px;
-	    object-fit: contain;
+	    height: 220px;
+	    object-fit: cover;
 	}
 
 	.login_text {
