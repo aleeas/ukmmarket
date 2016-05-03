@@ -1,0 +1,321 @@
+/* #container {
+	width: 50%;
+	margin: 20px auto;
+}
+#container .item {
+	background: rgb(255,255,255);
+	width: 320px;
+	height: auto !important;
+	border: 1px solid #c8c8c8;
+	position: relative;
+}
+
+#container .item.full-width{
+	width: 100%;
+	
+}
+#container .item.potrait{
+
+	height: 320px !important;
+}
+#container .item.potrait img{
+	height: 100%;
+}
+#container .item .item.full-width  .desc-item{
+	display: inline-block;
+	width: 100%;
+	position: absolute;
+	z-index: 2;
+	left:2%;
+}
+#container .item .item.full-width .div-images{
+	display: inline-block;
+	width: 73%;
+	position: relative;
+	z-index: 1;
+	margin-left: 27%;
+}
+
+#container .item.full-width .desc-item h1{
+	font-size: 44px;
+	margin-left: 20px;
+}*/
+/*#container {
+	width: 50%;
+	margin: 20px auto;
+}
+
+#container .wrapper{
+	 -moz-column-width: 13em;
+  -webkit-column-width: 13em;
+  -moz-column-gap: 1em;
+  -webkit-column-gap: 1em;
+}
+#container .wrapper .item {
+  display: inline-block;
+  margin: 0.25rem;
+  padding: 1rem;
+  width: 100%;
+  background: #fff;
+  border: 1px solid #c8c8c8;
+}*/
+
+
+.container .item{
+	border: 1px solid #c8c8c8;
+	float: left;
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 0;
+}
+
+.container .item h2{
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 24px;
+}
+
+.container .potrait{
+	height: 100%;
+}
+
+.container .potrait img{
+    height: 293px;
+    object-fit: cover;
+}
+
+.container .potrait .col-lg-8{
+	padding: 0;
+}
+
+.container .col-lg-8{
+	padding: 0;
+}
+
+.container .benefit_ukm .item{
+	border-right: none;
+	border-left: none;
+}
+
+.container .benefit_ukm .item .express{
+	background: url(../img/sprite-img.png);
+    height: 100px;
+    width: 20%;
+    float: left;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+    background-position: 55px 0px;
+}
+
+.container .benefit_ukm .item .trusted{
+	background: url(../img/sprite-img.png);
+    height: 100px;
+    width: 20%;
+    float: left;
+    background-position: -110px 0px;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.container .benefit_ukm .item .easypayment{
+	background: url(../img/sprite-img.png);
+    height: 100px;
+    width: 20%;
+    float: left;
+    background-position: -265px 0px;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+
+.container .benefit_ukm .item .bigdeals{
+	background: url(../img/sprite-img.png);
+    height: 100px;
+    width: 20%;
+    float: left;
+    background-position: -425px 0px;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.container .benefit_ukm .item .process{
+	background: url(../img/sprite-img.png);
+    height: 100px;
+    width: 20%;
+    float: left;
+    background-position: -600px 0px;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.container .benefit_ukm .item .title-text{
+	float: left;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+}
+
+.container .footermenu{
+	border-bottom: 1px solid #c8c8c8;
+	margin-bottom: 20px;
+	padding: 0 5%;
+}
+.container .footermenu ul.menu_footer{
+	padding: 0 20px;
+}
+
+.container .footermenu ul.menu_footer li a{
+	color: inherit;
+}
+
+.container .footermenu ul.menu_footer.socmed{
+	list-style: none;
+	padding: 0;
+}
+.container .footermenu ul.menu_footer.socmed li{
+	display: inline-block;
+}
+.container .footermenu ul.menu_footer.socmed li a{
+    font-size: 25px;
+    margin: 0 3px;
+}
+.container .footermenu h5{
+	border-right: 1px solid #c8c8c8;
+}
+
+.container .footermenu h5.last-title{
+	border-right: none;
+}
+
+.payment-method{
+    background: url(../img/payment.png);
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.support-express{
+    background: url(../img/kurir.png);
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.supported-by{
+    background: url(../img/supporter.png);
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.copyright{
+	margin: 20px 0;
+}
+
+.login_text{
+	font-size: 2em;
+	line-height: 60px;
+    color: #fff;
+}
+a.login_text:hover{
+	color: #fff;
+}
+.navbar-header-top{
+	margin-top: 20px;
+	background: #2e4072;
+}
+
+.navbar-header-top i{
+	margin: 12px;
+	color: #fff;
+}
+
+
+
+@media screen and (max-width: 600px) {
+   .container .footermenu h5{
+   		border-right: none
+   }
+   .container .footermenu {
+	    padding: 0;
+	}
+
+	.container .potrait img {
+	    height: 185px;
+	    object-fit: contain;
+	}
+
+	.login_text {
+	    font-size: 1.8em;
+	}
+
+}
+
+
+@media screen and (max-width: 800px) {
+   .container .benefit_ukm .item .express {
+
+	    background-position: 0 0px;
+	}
+	.container .benefit_ukm .item .trusted {
+
+	    background-position: 24% 0px;
+	}
+
+	.container .benefit_ukm .item .easypayment{
+		
+	    background-position: 49% 0px;
+	}
+
+	.container .benefit_ukm .item .bigdeals{
+
+	    background-position: 75% 0px;
+
+	}
+
+	.container .benefit_ukm .item .process{
+
+	    background-position: 100% 0px;
+
+	}
+}
+
+@media all and (max-width: 1024px) and (min-width: 801px) {
+   .container .benefit_ukm .item .express {
+
+	    background-position: -5% 0px;
+	}
+	.container .benefit_ukm .item .trusted {
+
+	    background-position: 22% 0px;
+	}
+
+	.container .benefit_ukm .item .easypayment{
+		
+	    background-position: 47% 0px;
+	}
+
+	.container .benefit_ukm .item .bigdeals{
+
+	    background-position: 77% 0px;
+
+	}
+
+	.container .benefit_ukm .item .process{
+
+	    background-position: 105% 0px;
+
+	}
+}	
+
+@media screen and (max-width: 480px) {
+   .container{
+   		display: none;
+   }
+}
