@@ -173,7 +173,9 @@ a.login_text:hover{
 	color: #fff;
 }
 
-
+.menu-mobile{
+	display: none;
+}
 
 @media screen and (max-width: 600px) {
    .container .footermenu h5{
@@ -190,6 +192,9 @@ a.login_text:hover{
 
 	.login_text {
 	    font-size: 1.8em;
+	}
+	.menu-mobile{
+		display: block;
 	}
 
 }
@@ -221,6 +226,12 @@ a.login_text:hover{
 	    background-position: 100% 0px;
 
 	}
+	.menu-mobile{
+		display: block;
+	}
+	.container-logo{
+		text-align: center;
+	}
 }
 
 @media all and (max-width: 1024px) and (min-width: 801px) {
@@ -249,9 +260,23 @@ a.login_text:hover{
 	    background-position: 105% 0px;
 
 	}
+	.menu-mobile{
+		display: block;
+	}
+	.container-logo{
+		text-align: center;
+	}
 }	
 
-@media all and (max-width: 480px) and (min-width: 320px) {
+@media all and (max-width: 599px) and (min-width: 480px) {
+	.navbar-header-top img.logo-img{
+		 width: 290px;
+    	 margin-top: 5px;
+
+	}
+}
+
+@media all and (max-width: 479px) and (min-width: 320px) {
 
 	.payment-method {
 	    height: 30px;
@@ -263,8 +288,9 @@ a.login_text:hover{
 	    color: #fff;
 	}
 	.navbar-header-top img.logo-img{
-		 width: 200px;
+		 width: 180px;
     	 margin-top: 5px;
+
 	}
 
 	.login_text{
@@ -303,5 +329,8 @@ a.login_text:hover{
 
 	.container .footermenu .col-xs-3.small-menu{
 		width: 100%;
+	}
+	.menu-mobile{
+		display: block;
 	}
 }
